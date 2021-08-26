@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:background="#B00020"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -11,23 +12,26 @@
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:layout_height="735dp"
+        android:background="#B00020"
         android:scaleType="centerCrop"
         app:srcCompat="@drawable/merlin_149743005_57ffbe21_5307_4158_bf87_71b671dfbdcb_jumbo" />
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="293dp"
+        android:layout_height="423dp"
         android:layout_gravity="center"
-        tools:srcCompat="@tools:sample/avatars" />
+        tools:srcCompat="@drawable/my_visual_55560557" />
 
     <Button
         android:id="@+id/button4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Full Menu"
-        android:layout_gravity="center"/>
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="170dp"
+        android:text="Full Menu Here!"
+        app:backgroundTint="#B00020" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:layout_width="match_parent"
@@ -37,5 +41,31 @@
         app:menu="@menu/navigation">
 
     </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    <TextView
+        android:id="@+id/PhoneNumber"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="75dp"
+        android:layout_marginRight="75dp"
+        android:backgroundTint="#B00020"
+        android:background="@drawable/roundstyle"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Phone Number 209-123-4567"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/Address"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="75dp"
+        android:layout_marginLeft="75dp"
+        android:backgroundTint="#B00020"
+        android:background="@drawable/roundstyle"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Address 123 BestCafeDrive, Los Angeles, California"
+        android:textColor="@color/white" />
 
 </FrameLayout>
