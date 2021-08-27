@@ -18,6 +18,15 @@
         app:srcCompat="@drawable/merlin_149743005_57ffbe21_5307_4158_bf87_71b671dfbdcb_jumbo" />
 
     <ImageView
+        android:id="@+id/Logo"
+        android:layout_width="255dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="75dp"
+        app:srcCompat="@drawable/hjk_logo"
+        tools:srcCompat="@drawable/hjk_logo_removebg_preview" />
+
+    <ImageView
         android:id="@+id/imageView4"
         android:layout_width="293dp"
         android:layout_height="423dp"
